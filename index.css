@@ -1,0 +1,78 @@
+a {
+	color: #000;
+}
+a:hover {
+	color: #000;
+}
+a:visited {
+	color: #000;
+}
+.homeLinks {
+    padding: 15px;
+}
+.homeLinks:hover {
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.3));
+    filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.3));
+}
+#contacts {
+    text-align: center;
+    margin-left: 55px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 19px;
+    font-family: 'Comic Sans MS';
+}
+#markEmail {
+    font-size: 15px;
+    font-weight: 400px;
+    margin-top: 20px;
+    font-family: 'Comic Sans MS';
+}
+#swatiEmail {
+    font-size: 15px;
+    font-weight: 400px;
+    font-family: 'Comic Sans MS';
+}
+#contactsContainer {
+    margin-top: 50px;
+    width: 100px;
+}
+#emailAddress {
+    text-align: center;
+}
+
+/* Animation Styles */
+#animation_wrapper {
+	position: absolute;
+	display: none;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+#animation_skip {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 50;
+	font-family: 'Comic Sans MS'
+}
+
+#centering_wrapper {
+	height:100%;
+	position:relative;
+	right:50%;
+	text-align:center;
+}
+
+#animation_video {
+	height:100%;
+	max-width:150%;
+	margin-right:-100%;
+}
+
+#centering_wrapper #ani_gif, #centering_wrapper #static_gif {
+	height:100%;
+	width:auto;
+	margin-right:-100%;			
+}
